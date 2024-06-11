@@ -13,10 +13,12 @@
     "express": "^4"
   },
   "devDependencies": {
-    "@cap-js/sqlite": "^1"
+    "@cap-js/sqlite": "^1",
+    "@sap/ux-specification": "^1.120.12"
   },
   "scripts": {
-    "start": "cds-serve"
+    "start": "cds-serve",
+    "watch-productsui": "cds watch --open productsui/webapp/index.html?sap-ui-xx-viewCache=false"
   },
   "cds": {
     "cov2ap": {
@@ -32,5 +34,8 @@
         }
       }
     }
-  }
+  },
+  "sapux": [
+    "app/productsui"
+  ]
 }
