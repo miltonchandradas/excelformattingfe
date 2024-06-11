@@ -1,7 +1,7 @@
 using {northwind} from './external/northwind';
 
 @path: 'service/northwind'
-service RestaurantService {
+service NorthwindService {
     @readonly
     entity Products   as
         projection on northwind.Products {
