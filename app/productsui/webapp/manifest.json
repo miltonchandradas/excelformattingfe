@@ -112,8 +112,8 @@
                   }
                 }
               },
-              "content": {
-                "header": {
+              "controlConfiguration": {
+                "@com.sap.vocabularies.UI.v1.LineItem": {
                   "actions": {
                     "ListReportExt": {
                       "press": "com.sap.productsui.ext.controller.ListReportExt.onExcelDownload",
