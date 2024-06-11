@@ -111,6 +111,19 @@
                     "route": "ProductsObjectPage"
                   }
                 }
+              },
+              "content": {
+                "header": {
+                  "actions": {
+                    "ListReportExt": {
+                      "press": "com.sap.productsui.ext.controller.ListReportExt.onExcelDownload",
+                      "visible": true,
+                      "enabled": true,
+                      "requiresSelection": false,
+                      "text": "Excel Download"
+                    }
+                  }
+                }
               }
             }
           }
