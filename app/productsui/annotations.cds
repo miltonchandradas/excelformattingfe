@@ -4,27 +4,27 @@ annotate service.Products with @(
     UI.LineItem : [
         {
             $Type : 'UI.DataField',
-            Label : 'ProductID',
+            Label : 'Product ID',
             Value : ProductID,
         },
         {
             $Type : 'UI.DataField',
-            Label : 'ProductName',
+            Label : 'Product Name',
             Value : ProductName,
         },
         {
             $Type : 'UI.DataField',
-            Label : 'QuantityPerUnit',
+            Label : 'Quantity Per Unit',
             Value : QuantityPerUnit,
         },
         {
             $Type : 'UI.DataField',
-            Label : 'UnitPrice',
+            Label : 'Unit Price',
             Value : UnitPrice,
         },
         {
             $Type : 'UI.DataField',
-            Label : 'UnitsInStock',
+            Label : 'Units In Stock',
             Value : UnitsInStock,
         },
     ]
@@ -35,27 +35,27 @@ annotate service.Products with @(
         Data : [
             {
                 $Type : 'UI.DataField',
-                Label : 'ProductID',
+                Label : 'Product ID',
                 Value : ProductID,
             },
             {
                 $Type : 'UI.DataField',
-                Label : 'ProductName',
+                Label : 'Product Name',
                 Value : ProductName,
             },
             {
                 $Type : 'UI.DataField',
-                Label : 'QuantityPerUnit',
+                Label : 'Quantity Per Unit',
                 Value : QuantityPerUnit,
             },
             {
                 $Type : 'UI.DataField',
-                Label : 'UnitPrice',
+                Label : 'Unit Price',
                 Value : UnitPrice,
             },
             {
                 $Type : 'UI.DataField',
-                Label : 'UnitsInStock',
+                Label : 'Units In Stock',
                 Value : UnitsInStock,
             },
         ],
